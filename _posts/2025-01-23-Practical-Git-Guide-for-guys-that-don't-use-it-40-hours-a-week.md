@@ -1,3 +1,8 @@
+---
+classes: wide
+title: "Practical Git guide for people that don't use it 40 hours a week"
+---
+
 # Setup
 For setup purposes I'll assume you're using windows but the instructions will work with any operating system, you just won't be able to use the exact links here.
 ## Installing Git & Helpful addons
@@ -16,20 +21,12 @@ Both of these will install the git command line tool as well as a custom termina
 Git recommends a number of GUIs, old timers will tell you not to use them and to get used to the command line. I've met excellent developers who use both strategies. While starting out it's easier to visualize git relationships using these tools. There are a ton of them, a few that I've tried are.
 
 [Github Desktop](https://github.com/apps/desktop) The GUI I've used the most. Does not require you to be using Github.
+
 [SourceTree](https://www.sourcetreeapp.com/)The GUI I've seen used by the most professional developers.
-[Ungit](https://github.com/FredrikNoren/ungit)which I'm not familiar with but the github README is really good and the xkcd comic at the top sums up the git experience nicely, even when using it alongside 25+ year developers. I'm switching to this one now just to see what it's like.
+
+[Ungit](https://github.com/FredrikNoren/ungit) I'm not familiar with this one but the github README is really good and the xkcd comic at the top sums up the git experience nicely, even when using it alongside 25+ year developers. I'm switching to this one now just to see what it's like. (Postnote: This is no longer maintained, it's probably still ok because git doesn't change much but I would avoid for now. I did however learn about [[Chattanooga Open Data]] from this repository.)
 
 You can use all of these, even all of them at once and pick whichever is simplest or you find the easiest to use.
-## Docker and Docker Desktop
-Download docker desktop from here:
-https://www.docker.com/products/docker-desktop/
-
-[Here](https://docs.docker.com/desktop/)'s an overview of all of the products that come along with docker desktop but my overview is as follows:
-
-Docker Engine - the tool that makes your system resources available to the pseudo-virtual-machine that runs all of your services.
-Docker CLI Client - the tool that you'll use to interact with docker the most. Builds, runs, composes, takes down, deletes, prunes and much more.
-Docker Compose - the tool that let's you escape using the docker CLI when you want to chain many services together and you don't want to write 100 line commands.
-Docker Build - the tool that builds your custom images, I really don't use this one too often, at least not directly.
 
 # Git
 Use Git Bash for the following commands because I want to create some files in the command line and I don't want to have to write Bash, Powershell, and CMD commands each time.
@@ -43,20 +40,26 @@ These three things, to git, are nouns. Everything else in git is a verb. Pulls, 
 
 ## Repositories
 A repository is either a local or a remote copy of a git project. You can link and unlink your local repo to remote repos and even host your own remote repo if you really want. 
+
 ### git clone
 When you use git clone all it's doing is copying the remote repository to your local, setting you on the main/master branch, and telling you local git that the remote repo is located at whatever url you used. THAT'S IT
 
 ### git init
 When you do git init it's creating a new repository with no remote copy. You can set this remote copy and then interact with it provided you have the correct permissions to do so.
 
-> [!warning]- Practical Shortcut 1
+> [!WARNING]- Practical Shortcut 1
 > Your first practical shortcut. If you want to create a new git project DON'T use git init. Create a new project on Github first, clone it, add your files, commit and push to origin. If you git init first I have no idea how to make a new repo on Github and match it up with your local repo, you have to set an origin, create an upstream, blah blah blah. I remedy this by just never doing it.
+
 ### git remote add
 If you want to add a remote after running git init or if you want to change the remote you're pointing at you can use git remote add. Because of the above practical shortcut you really won't ever have to use this.
+
 ## Branches
 A branch is a silo of code that (in best practice) contains the changes a developer wants to make for a single feature. Many developers also use specific branches for development, staging, and production. 
->[!warning]- Practical Shortcut 2
->If you are working on a solo project you probably don't need to make any branches or merge anything. HERETIC, SINNER, MADMAN, I hear you saying. To seriously simplify git you can stick to commits, pushes, and pulls and treat them like save, upload, and download. Use just the main branch and forget about the rest until you really need it or you want to expand your horizons.
+
+> **Practical Shortcut 2**
+>
+> If you are working on a solo project you probably don't need to make any branches. "HERETIC! SINNER! MADMAN!" I hear you saying. To seriously simplify git you can stick to commits, pushes, and pulls and treat them like save, upload, and download. Use just the main branch and forget about the rest until you really need it or you want to expand your horizons.
+
 ### git branch
 git branch can be used in a couple of ways. 
 ```git branch list```
