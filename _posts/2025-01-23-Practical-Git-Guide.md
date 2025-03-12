@@ -13,7 +13,10 @@ This link is for windows, pick the standalone installer. I'm sure you already kn
 
 If you want to remain on the command line the entire time you can run this command: 
 
-```winget install --id Git.Git -e --source winget```
+	
+```bash
+winget install --id Git.Git -e --source winget
+```
 
 Both of these will install the git command line tool as well as a custom terminal called 'Git Bash'. It's useful for a few things. The first, it gives the user a very nice color palette that highlights what git branch you're on as well as Linux commands in case you're more accustomed to them. It is not necessary, powershell and cmd both work just as well.
 

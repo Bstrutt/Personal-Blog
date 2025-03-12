@@ -22,9 +22,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Bryce Struttman"
 description              : "This is my 'blog' and a space for the things I'm thinking about."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://bastruttman.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "Bstrutt/Personal-Site" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -114,17 +114,17 @@ analytics:
 # Site Author
 author:
   name             : "Bryce Struttman"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Kind of a curious guy."
   location         : "Chattanooga, TN"
-  email            :
+  email            : "bastruttman@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:bastruttman@gmail.com"
-    - label: "Website"
+    - label: "Website (you are here)"
       icon: "fas fa-fw fa-link"
-      url: "https://www.bastruttman.com (you are here)"
+      url: "http://www.bastruttman.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bstrutt"
