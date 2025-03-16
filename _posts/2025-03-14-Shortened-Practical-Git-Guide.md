@@ -1,20 +1,20 @@
 ---
 classes: wide
 title: "Shortened Practical Git Guide"
+excerpt: "A practical guide to Git for single users who need bare minimum functionality."
 ---
-A practical guide to git for extremely small shops (my dad) who can get use out of git but don't need any added complexity.
 
 # Motivation
-I'm writing this becaue the first one was too long. What I thought was already shortened was not short enough and frankly didn't cover the true simplest use case of git. This guide is for someonw who has a collection of files and wants a better way to version control than saving to a Gdrive folder and changing a version number. You don't need to use every single git function to make it useful so here's the least possible functions you can use to have some use. 
+I'm writing this becaue my first attempt was too long and included features that weren't useful to my ideal user (my dad). What I thought was already shortened was not short enough and frankly didn't cover the true simplest use case of Git. This guide is for someone who has a collection of files and wants a better way to version control than saving to a G-drive folder and changing a version number. You don't need to use every single git function to make it useful so here's the least amount of features you can use to get some value from Git. 
 
 # As Short as Possible
-At the very center of git is 3 simple operations, save/upload/download. If you are a one-person show with no risk of merge conflicts or writing on two machines at once this is what you need and *all* you need.
+At the very center of Git is 3 simple operations, save/upload/download. If you are a one-person show with no risk of merge conflicts or writing on two machines at once this is what you need and *all* you need.
 
 If you want to super-simplify use Github Desktop. But read the rest of this so that you know the context around the basic actions.
 
 ## Repository Creation
 
-Create your repository on github. Don't mess with git init or anything like that. Once you've created your repository check the home page of the repo and copy the URL of it. 
+Create your repository on Github. Don't mess with Git init or anything like that. Once you've created your repository check the home page of the repo and copy the URL of it. 
 
 ## Download
 Now go to your command line and run this command. This is your download.  
