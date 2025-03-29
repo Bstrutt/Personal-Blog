@@ -38,7 +38,7 @@ ALT - ALT is a liver enzyme that can indicate that the liver is under stress. Go
 
 ApoB + LDL - Testing these two via a blood test can tell you about your cholesterol as well as your risk for cardiovascular disease.
 
-There are a ton of tests to be done but they're all covered here in this reddit post: https://www.reddit.com/r/PeterAttia/comments/194yfk2/all_the_medical_tests_in_outlive_with_target/
+There are a ton of tests to be done but they're all covered here in this (reddit post)[https://www.reddit.com/r/PeterAttia/comments/194yfk2/all_the_medical_tests_in_outlive_with_target/]
 
 # Drugs and other interventions
 Rapamycin - supresses the mTOR protein complex which allows cells to be cleaned and recycled. 
