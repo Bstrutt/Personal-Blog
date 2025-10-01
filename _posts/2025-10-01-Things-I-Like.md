@@ -2,9 +2,9 @@
 classes: wide
 title: "Things I like"
 excerpt: "Why use things you don't enjoy using?"
-published: false
+published: true
 ---
-# On Romanticizing The Process
+
 # Writing 
 I love pens and good paper
 ## Fountain Pens
