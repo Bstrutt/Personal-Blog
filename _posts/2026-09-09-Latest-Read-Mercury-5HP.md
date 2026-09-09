@@ -8,19 +8,30 @@ categories:
 ---
 I recently bought a 17 foot Grumman Eagle flat stern canoe off of marketplace. It's fairly wide which is great for stability, and it came with built in holsters for trolling with fishing rods. I've floated it already and it does float nicely despite a pretty significant patch job on the flat stern. There's really only one thing to do that can improve this already immaculate 40 year old canoe which is of course putting a way over-powered motor on the back of it and ripping it up river as fast as it can possibly go. 
 
-![Canoe](/assets/images/boat.jpg)
+
+{% include figure
+   image_path="/assets/images/boat.jpg"
+   alt="Canoe"
+    class="image-right"
+   popup=true
+%}
 
 So I bought a 5 horsepower outboard motor for $200 with a broken lower unit. The propeller shaft housing (also called the bearing housing) was ripped off of the lower unit housing at the bolt so after a bit of research I bought an aftermarket replacement part online for $25 and replaced it. It was a minor struggle to get the lower unit back into the engine but after some consultation from my girlfriend I got everything assembled and ready for the motor to start. This is where things really begin and where I bought the Mercury Service Manual and began my perusal.
+
+<div class="image-clear"></div>
 
 {% include figure
    image_path="/assets/images/motor.jpg"
    alt="Mercury outboard motor"
-   class="third"
+    class="image-left"
    popup=true
 %}
+
 I've never started a motor that wasn't in a car or a lawnmower so a two-stroke on an outboard motor was completely new to me. Despite my lack of experience I pumped the primer and ripped it and it started nicely only to die after about 20 seconds. Hmm... If you know anything about motors you probably have some ideas already as to what could be causing this problem. Somewhere before the fuel/air mixture gets into the cylinder we are getting a bad ratio. This causes our motor to bog down and eventually die. This can be caused by a number of things but most people start at the carburetor. 
 
 The carb is what mixes your fuel and air as you change your throttle higher and lower. Old fuel can stick around in the carb and turn to varnish which clogs the very small holes in your carburetor and changes the amount of fuel that can come through your carb. So I take apart the carb and wouldn't you know it? It's clean. That's strange. I spray it out with carb cleaner and put it back on the motor. Pull the cord, nothing. Ok where else can we get air introduced where it shouldn't be? These fuel lines are probably over 30 years old and they're rotting off of the so let's try changing those out next. 
+
+<div class="image-clear"></div>
 
 A trip to O'Reilly's, learn how to replace fuel lines (it's not hard), figure out how to use the hose clamps that are made for much bigger hoses on these tiny ones, put the fuel filter back on, start the motor. Guess what? Nothing. Still dying after a few seconds.
 

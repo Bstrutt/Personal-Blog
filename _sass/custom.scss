@@ -1,0 +1,40 @@
+figure.image-left {
+  display: block;
+  float: left;
+  width: 40%;
+  margin: 0 1.5rem 1rem 0;
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+figure.image-right {
+  display: block;
+  float: right;
+  width: 40%;
+  margin: 0 0 1rem 1.5rem;
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+.image-clear {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  figure.image-left {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
+@media (max-width: 600px) {
+  figure.image-right {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
