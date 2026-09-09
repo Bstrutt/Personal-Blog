@@ -8,7 +8,11 @@ categories:
 ---
 I recently bought a 17 foot Grumman Eagle flat stern canoe off of marketplace. It's fairly wide which is great for stability, and it came with built in holsters for trolling with fishing rods. I've floated it already and it does float nicely despite a pretty significant patch job on the flat stern. There's really only one thing to do that can improve this already immaculate 40 year old canoe which is of course putting a way over-powered motor on the back of it and ripping it up river as fast as it can possibly go. 
 
+![Canoe](/assets/images/boat.jpg)
+
 So I bought a 5 horsepower outboard motor for $200 with a broken lower unit. The propeller shaft housing (also called the bearing housing) was ripped off of the lower unit housing at the bolt so after a bit of research I bought an aftermarket replacement part online for $25 and replaced it. It was a minor struggle to get the lower unit back into the engine but after some consultation from my girlfriend I got everything assembled and ready for the motor to start. This is where things really begin and where I bought the Mercury Service Manual and began my perusal.
+
+![Mercury outboard motor](/assets/images/motor.jpg)
 
 I've never started a motor that wasn't in a car or a lawnmower so a two-stroke on an outboard motor was completely new to me. Despite my lack of experience I pumped the primer and ripped it and it started nicely only to die after about 20 seconds. Hmm... If you know anything about motors you probably have some ideas already as to what could be causing this problem. Somewhere before the fuel/air mixture gets into the cylinder we are getting a bad ratio. This causes our motor to bog down and eventually die. This can be caused by a number of things but most people start at the carburetor. 
 
