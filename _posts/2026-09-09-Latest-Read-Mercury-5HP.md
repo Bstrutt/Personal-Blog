@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Latest Read: Mercury Service Manual 4/5/102cc Sailpower"
-excerpt: "A practical Git guide for entry-level users"
+excerpt: "Adventures in small engine repair"
 published: true
 categories:
     - Read
